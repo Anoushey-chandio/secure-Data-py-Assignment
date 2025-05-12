@@ -1,8 +1,21 @@
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
+
 # Ignore virtual environment
+.venv/
 venv/
+.env/
+
 # Ignore Streamlit and system files
 .streamlit/
 .DS_Store
+
+# Ignore dependency manager files
+*.lock
+
+# Ignore project files
+project.toml
+
+# Ignore Python version file
+python_version.txt
